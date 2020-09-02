@@ -1,0 +1,371 @@
+
+/* Header styling*/
+.header{
+	display: flex;
+	flex-direction: row;
+}
+.subheader{
+	width: 33.3%;
+	color: #FFFFFF;
+	text-align: center;
+	background-color: #3a3d3a;
+	font-family:  Arial, Helvetica, sans-serif;
+}
+.subheader h1{
+	padding-top: 50px;
+}
+/* Navigation styling*/
+.navitems {
+  list-style-type: none;
+  margin: 1px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #222422;
+  border-radius: 10px;
+}
+.navitems li {
+  float: left;
+  margin-left: 10%;
+}
+
+.navitems a {
+  display: block;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.navitems a:hover{
+	background-color: #888c88;
+	border-radius: 10px;
+	padding-right: 25px;
+	padding-left: 25px;
+}
+.navitems a:active{
+	background-color: #0bbf1a;
+	border-radius: 10px;
+	padding-right: 25px;
+	padding-left: 25px;
+}
+/* squad styling*/
+.images{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.image{
+	display: inline-block;
+	margin: 10px;
+	width: 22%;
+	background-color: #FFFFFF;
+	border-radius: 20px;
+}
+.image h1,h3{
+	text-align: center;
+}
+.image img{
+	width: 100%;
+	height: 250px;
+}
+.images div img:hover{
+	transition: all 1s ease;
+	opacity: 0.8;
+	width: 90%;
+	height: 220px;
+}
+.image a{
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 20px;
+	background-color: #636062;
+	border-radius: 10px;
+	margin-left: 60%;
+	padding:5px;
+}
+.image a:hover{
+	transition: all 1s ease;
+	opacity: 0.8;
+	padding: 10px;
+}
+/*Shedule styling*/
+.box{
+	width: 100%;
+	text-align: left;
+	padding: 20px;
+	font-size: 20px;
+	margin-bottom: 10px;
+	border: none;
+	border-collapse: collapse;
+}
+.row td:hover{
+	background-color: #cedfdf;
+}
+.row th{
+	 padding-top: 12px;
+     padding-bottom: 12px;
+     text-align: left;
+     background-color: #4CAF50;
+     border: 1px solid #dddddd;
+}
+.row td{
+	 padding-top: 12px;
+     padding-bottom: 12px;
+     text-align: left;
+     background-color: #FFFFFF;
+     border: 1px solid #dddddd;
+ }
+ .book{
+ 	background-color: #959e95;
+ 	color: #FFFFFF;
+ 	border-radius: 10px;
+ }
+.book h1{
+	color: #ff4e33;
+}
+.book h2{
+	padding-left: 20px; 
+	padding-bottom: 5px;
+}
+.book a{
+	text-decoration: none;
+	background-color: #171616;
+	border-radius: 10px;
+	padding: 3px;
+	color: #FFFFFF;
+}
+/*aboutus Styling*/
+.about img{
+	width: 96%;
+	margin-right: 2%;
+	margin-left: 2%;
+}
+.about p{
+	font-family:  Arial, Helvetica, sans-serif;
+	margin: 2%;
+}
+.top{
+	margin-left: 2%;
+	margin-right: 2%; 
+}
+.score{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.score img{
+	width: 20%;
+	margin-right: 2%
+	height: 200px;
+}
+.score p{
+	width: 70%;
+	font-family:  Arial, Helvetica, sans-serif;
+	margin-left: 2%;
+	display:inline-block;
+}
+.highlight{
+	text-align: center;
+	background-color: #b9c9bb;
+	border-radius: 10px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	margin-top: 1%;
+}
+.list{
+	font-size: 25px;
+}
+.list li{
+	margin: 0;
+	padding: 0;
+}
+.input-container {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  width: 50%;
+  margin-bottom: 15px;
+  margin-left: 20%;
+  color: #FFFFFF;
+}
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  border-radius: 10px;
+}
+.icon {
+  padding: 10px;
+  background: #1e90ff;
+  color: #FFFFFF;
+  min-width: 50px;
+  text-align: center;
+  border-radius: 10px;
+}
+.btn {
+  width: 20%;
+  margin-bottom: 15px;
+  margin-left: 35%;
+  margin-right: 40%;
+  color: #FFFFFF;
+  background-color: #1e90ff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+/* Contactus styling*/
+.form h2{
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 30px;
+}
+.formcontainer{
+	margin-top: -1%;
+	background-image: url("stadium.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.input-container a{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+.footer{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	background-color: #222422;
+	border-radius: 10px;
+}
+.foot{
+	width: 30%;
+}
+.footitems li{
+	list-style-type: none;
+	padding: 3px;
+}
+.foot a{
+	text-decoration: none;
+	color: #FFFFFF;
+
+}
+.foot i{
+	display: block;
+	font-size: 25px;
+	padding: 5px;
+	margin-top: 10px;
+	text-align: center;
+}
+/* Home page styling*/
+.container{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.container-item{
+	width: 22%;
+	margin: 1%;
+	font-family:  Arial, Helvetica, sans-serif;
+}
+.container-item img{
+	width: 100%;
+	height: 80%;
+	border-radius: 10px;
+}
+.container-item img:hover{
+	transition: all 1s ease;
+	width: 90%;
+	height: 70%;
+}
+.content{
+	margin-top: 4%;
+	margin-left: 2%;
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	border-radius: 10px;
+	padding: 5px;
+}
+.video{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.controls{
+	width: 30%;
+	margin: 1%;
+}
+.controls h1{
+	font-style: italic;
+}
+.controls video:hover{
+	transition: all 1s ease;
+	width: 90%;
+}
+/* Responsive styling*/
+@media only screen and (min-width: 320px) and (max-width: 767px){
+	.images{
+		flex-direction: column;
+		justify-content: space-around;
+	}
+	.image{
+		width: 92%;
+	}
+	.score{
+		flex-direction: column;
+		justify-content: space-around;
+	}
+	.score img{
+		width: 92%;
+	}
+	.score p{
+		width: 92%;
+	}
+	.container{
+		flex-direction: column;
+		justify-content: space-around;
+	}
+	.container-item{
+		width: 92%;
+	}
+	.video{
+		flex-direction: column;
+		justify-content: space-around;
+	}
+	.controls{
+		width: 92%;
+	}
+	.subheader h1{
+		font-size: 12px;
+		padding-top: 50px;
+	}
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+	.images{
+		flex-direction: row;
+		justify-content: space-around;
+	}
+	.image{
+		width: 45%;
+	}
+	.score{
+		flex-direction: row;
+		justify-content: space-around;
+	}
+	.score img{
+		width: 45%;
+	}
+	.score p{
+		width: 45%;
+	}
+	.container{
+		flex-direction: row;
+		justify-content: space-around;
+	}
+	.container-item{
+		width: 45%;
+	}
+	.video{
+		flex-direction: row;
+		justify-content: space-around;
+	}
+	.controls{
+		width: 45%;
+	}
+}
